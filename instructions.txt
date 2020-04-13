@@ -1,0 +1,25 @@
+
+### Installing and running amazon product scrapper bot
+
+Unizp project and go unzip directory location on command window. ex: E:\python\amazon_products
+
+### One time Settings
+
+Download chrome web driver and unzip to your driver https://chromedriver.chromium.org/
+
+open amazon_products/settings.py and change the below path to installed chrome web driver
+SELENIUM_DRIVER_EXECUTABLE_PATH = 'E:/chromedriver_win32/chromedriver.exe'
+
+## Run the following commands to generate product csv
+
+Make sure you have isin_input.xlsx file under E:\python\amazon_products
+Run as many times as you want for new ASIN link products.
+
+cd E:\python\amazon_products
+
+execute RunScript.bat or double click to run
+
+csv will be generated under ./amazon_products/output folder of your current directory.
+
+
+
